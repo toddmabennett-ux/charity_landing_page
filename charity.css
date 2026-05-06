@@ -176,9 +176,6 @@ main p{
         margin: 20px auto;
         transition: transform 0.3s ease;
     }
-    .shop:hover{
-        transform: scale(1.05);
-    }
     .shop-wrap{
         margin: 40px;
     }
