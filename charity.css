@@ -155,7 +155,51 @@ main p{
     color: black;
 }
 @media screen and (max-width:600px){
-    aside, section, article{
-        width: 100%;
+    header{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 20px 0;
+    }
+    .logo{
+        width: 80px;
+    }
+    header h1{
+        font-size: 1.6rem;
+    }
+    main p{
+        font-size: 1.6rem;
+        padding: 0 10px;
+    }
+    .shop{
+        width: 85%;
+        margin: 20px auto;
+        transition: transition 0.3 ease;
+    }
+    .shop:hover{
+        transform: scale(1.05);
+    }
+    .shop-wrap{
+        margin: 30px;
+    }
+    .divider{
+        width: 70%;
+    }
+    .opening-times{
+        width: 90%;
+        margin: 40px;
+        padding: 20px;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-box{
+        padding: 20px;
+    }
+    .donate-btn,
+    .volunteer-btn,
+    .email-btn{
+        width: 80%;
     }
 }
